@@ -28,7 +28,7 @@ class ComparisonModelProperty extends JModelAdmin
     {
         // Get the form.
         $form = $this->loadForm(
-            'com_comparison.comparison',
+            'com_comparison.property',
             'properties',
             array(
                 'control' => 'jform',
@@ -48,7 +48,7 @@ class ComparisonModelProperty extends JModelAdmin
     {
         // Check the session for previously entered form data.
         $data = JFactory::getApplication()->getUserState(
-            'com_comparison.edit.comparison.data',
+            'com_comparison.edit.property.data',
             array()
         );
 
