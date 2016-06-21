@@ -48,7 +48,7 @@ class ComparisonModelProperty extends JModelAdmin
     {
         // Check the session for previously entered form data.
         $data = JFactory::getApplication()->getUserState(
-            'com_comparison.edit.property.data',
+            'com_comparison.edit.propert.data',
             array()
         );
 
