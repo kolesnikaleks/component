@@ -25,7 +25,7 @@ defined('_JEXEC') or die('Restricted Access');
         </td>
 
         <td style="padding:20px 30px;">
-            <?php echo $item->catid; ?>
+            <?php echo $item->title; ?>
         </td>
 
         
