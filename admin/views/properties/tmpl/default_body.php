@@ -18,10 +18,10 @@ defined('_JEXEC') or die('Restricted Access');
             </a>
         </td>
         <td style="padding:20px 30px;">
-            <?php echo $item->description; ?>
+            <?php echo $item->value; ?>
         </td>
         <td style="padding:20px 70px;">
-            <?php echo $item->value; ?>
+            <?php echo $item->description; ?>
         </td>
 
         <td style="padding:20px 30px;">
