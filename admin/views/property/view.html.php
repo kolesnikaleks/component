@@ -42,6 +42,7 @@ class ComparisonViewProperty extends JViewLegacy
         $isNew = ($this->items->id == 0);
         JToolBarHelper::title($isNew ? JText::_('COM_COMPARISON_MANAGER_PROPERTIES_NEW') : JText::_('COM_COMPARISON_MANAGER_PROPERTIES_EDIT'));
         JToolBarHelper::save('property.save');
+        JToolBarHelper::save2new('property.save');
         JToolBarHelper::cancel('property.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
     }
 }

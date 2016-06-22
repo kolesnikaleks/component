@@ -4,7 +4,7 @@ defined('_JEXEC') or die('Restricted Access');
 ?>
 <?php foreach ($this->itemsis as $i => $item):
     $link = JRoute::_('index.php?option=com_comparison&task=property.edit&id=' . $item->id); ?>
-    <tr class="row-fluid<?php echo $i % 2; ?>" style="border-bottom: 1px solid ">
+    <tr class="row_<?php echo $i % 2; ?>" style="border-bottom: 1px solid ">
         <td>
             <?php echo $item->id; ?>
         </td>
