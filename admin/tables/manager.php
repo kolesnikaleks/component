@@ -10,7 +10,7 @@ class ComparisonTableComparison extends JTable
 
     function __construct(&$db)
     {
-        parent::__construct('#__', 'id', $db);
+        parent::__construct('#__manager', 'id', $db);
 
 
 
