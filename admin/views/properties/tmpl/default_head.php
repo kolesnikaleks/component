@@ -15,10 +15,10 @@ defined('_JEXEC') or die('Restricted Access');
         <?php echo JText::_('COM_COMPARISON_PROPERTIES_HEADING_TITLE'); ?>
     </th>
     <th style="">
-        <?php echo JText::_('COM_COMPARISON_PROPERTIES_HEADING_DESCRIPTION'); ?>
+        <?php echo JText::_('COM_COMPARISON_PROPERTIES_HEADING_VALUE'); ?>
     </th>
     <th style="">
-        <?php echo JText::_('COM_COMPARISON_PROPERTIES_HEADING_VALUE'); ?>
+        <?php echo JText::_('COM_COMPARISON_PROPERTIES_HEADING_DESCRIPTION'); ?>
     </th>
     <th style="">
         <?php echo JText::_('COM_COMPARISON_PROPERTIES_HEADING_CATID'); ?>
