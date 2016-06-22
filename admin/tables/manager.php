@@ -5,7 +5,7 @@ defined('_JEXEC') or die;
 jimport('joomla.database.table');
 
 
-class ComparisonTableComparison extends JTable
+class ComparisonTableManager extends JTable
 {
 
     function __construct(&$db)
