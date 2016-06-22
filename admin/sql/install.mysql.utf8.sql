@@ -28,12 +28,12 @@ CREATE TABLE `#__properties` (
 
 DROP TABLE IF EXISTS `#__comparison`;
 
-CREATE TABLE `#__properties` (
+CREATE TABLE `#__comparison` (
 	`id`       INT(11)     NOT NULL AUTO_INCREMENT,
-		`prop_name` VARCHAR(25) NOT NULL,
-		`description` VARCHAR(25) NOT NULL,
+		`items_name` VARCHAR(25) NOT NULL,
+		`properties_name` VARCHAR(25) NOT NULL,
 		`value` VARCHAR(25) NOT NULL,
-			`published` tinyint(4) NOT NULL,
+			`description` tinyint(4) NOT NULL,
 	`catid` VARCHAR(25) NOT NULL,
 	PRIMARY KEY (`id`)
 )
