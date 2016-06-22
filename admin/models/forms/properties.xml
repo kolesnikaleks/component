@@ -15,7 +15,7 @@
                 default=""
         />
         <field
-                name="description"
+                name="value"
                 type="text"
                 label="COM_COMPARISON_PROPERTIES_VALUE_LABEL"
                 description="COM_COMPARISON_PROPERTIES_VALUE_DESC"
@@ -24,7 +24,7 @@
                 default=""
         />
         <field
-                name="value"
+                name="description"
                 type="text"
                 label="COM_COMPARISON_PROPERTIES_STATUS_LABEL"
                 description="COM_COMPARISON_PROPERTIES_STATUS_DESC"
