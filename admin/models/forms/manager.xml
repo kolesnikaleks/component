@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field
+                name="id"
+                type="hidden"
+        />
+        <field
+                name="prop_name"
+                type="text"
+                label="COM_COMPARISON_PROPERTIES_NAME_LABEL"
+                description="COM_COMPARISON_PROPERTIES_NAME_DESC"
+                size="200"
+                class="inputbox"
+                default=""
+        />
+        <field
+                name="value"
+                type="text"
+                label="COM_COMPARISON_PROPERTIES_VALUE_LABEL"
+                description="COM_COMPARISON_PROPERTIES_VALUE_DESC"
+                size="200"
+                class="inputbox"
+                default=""
+        />
+        <field
+                name="description"
+                type="text"
+                label="COM_COMPARISON_PROPERTIES_STATUS_LABEL"
+                description="COM_COMPARISON_PROPERTIES_STATUS_DESC"
+                size="200"
+                class="inputbox"
+                default=""
+        />
+        <field
+                name="catid"
+                type="category"
+                extension="com_comparison"
+                label="COM_COMPARISON_PROPERTIES_CATEGORY_LABEL"
+                description="COM_COMPARISON_COMPARISON_CATEGORY_DESC"
+                class="inputbox"
+                default=""
+        />
+
+    </fieldset>
+</form>
