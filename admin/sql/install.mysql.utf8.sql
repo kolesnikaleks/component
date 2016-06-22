@@ -26,15 +26,15 @@ CREATE TABLE `#__properties` (
 	AUTO_INCREMENT =0
 	DEFAULT CHARSET =utf8;
 
-DROP TABLE IF EXISTS `#__comparison`;
+DROP TABLE IF EXISTS `#__manager`;
 
-CREATE TABLE `#__comparison` (
+CREATE TABLE `#__manager` (
 	`id`       INT(11)     NOT NULL AUTO_INCREMENT,
-		`items_name` VARCHAR(25) NOT NULL,
-		`properties_name` VARCHAR(25) NOT NULL,
+		`id_items` VARCHAR(25) NOT NULL,
+		`id_properties` VARCHAR(25) NOT NULL,
 		`value` VARCHAR(25) NOT NULL,
 			`description` tinyint(4) NOT NULL,
-	`catid` VARCHAR(25) NOT NULL,
+
 	PRIMARY KEY (`id`)
 )
 	ENGINE =MyISAM
