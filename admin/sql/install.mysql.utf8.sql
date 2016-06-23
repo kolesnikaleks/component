@@ -33,9 +33,7 @@ CREATE TABLE `#__manager` (
 		`id_items` VARCHAR(25) NOT NULL,
 		`id_properties` VARCHAR(25) NOT NULL,
 		`value` VARCHAR(25) NOT NULL,
-			`description` tinyint(4) NOT NULL,
-
-	PRIMARY KEY (`id`)
+				PRIMARY KEY (`id`)
 )
 	ENGINE =MyISAM
 	AUTO_INCREMENT =0
