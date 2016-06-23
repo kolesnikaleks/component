@@ -26,6 +26,19 @@ CREATE TABLE `#__properties` (
 	AUTO_INCREMENT =0
 	DEFAULT CHARSET =utf8;
 
+DROP TABLE IF EXISTS `#__manager`;
+
+CREATE TABLE `#__manager` (
+	`id`       INT(11)     NOT NULL AUTO_INCREMENT,
+		`id_items` VARCHAR(25) NOT NULL,
+		`id_properties` VARCHAR(25) NOT NULL,
+		`value` VARCHAR(25) NOT NULL,
+				PRIMARY KEY (`id`)
+)
+	ENGINE =MyISAM
+	AUTO_INCREMENT =0
+	DEFAULT CHARSET =utf8;
+
 
 
 
