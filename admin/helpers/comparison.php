@@ -43,8 +43,8 @@ abstract class ComparisonHelper
 
         JSubMenuHelper::addEntry(
             JText::_('COM_COMPARISON_SUBMENU_PROPERTIES'),
-            'index.php?option=com_comparison&view=manager',
-            $submenu == 'manager'
+            'index.php?option=com_comparison&view=manage',
+            $submenu == 'manage'
         );
 
 
